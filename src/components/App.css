@@ -1,0 +1,108 @@
+.container {
+    margin: 10px;
+    width: 300px;
+    border: blue;
+    border: 1px solid black;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(6, auto);
+
+    grid-template-areas: "display display display display"
+                         "clear delete module divide"
+                         "seven eigth nine multiply"
+                         "four five six sustract"
+                         "one two three add"
+                         "zero zero dot equal";
+}
+
+
+#calculator button {
+    width: 100%;
+    text-align: center;
+    border-radius: 0px;
+}
+
+
+.display {
+    grid-area: display;
+    text-align: right;
+    margin: 4px;
+}
+
+.clear {
+    grid-area: clear;
+}
+
+.delete {
+    grid-area: delete;
+}
+
+.module {
+    grid-area: module;
+}
+
+.divide {
+    grid-area: divide;
+}
+
+.multiply {
+    grid-area: multiply;
+}
+
+.sustract {
+    grid-area: sustract;
+}
+
+.add {
+    grid-area: add;
+}
+
+.equal {
+    grid-area: equal;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eigth {
+    grid-area: eigth;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.zero {
+    grid-area: zero;
+}
+
+.dot {
+    grid-area: dot;
+}
